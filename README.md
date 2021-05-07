@@ -10,6 +10,18 @@ Decided to take a deep dive and enlighten colleagues about what I found. This re
 
 De facto.
 
+### Parcel
+
+I tried this a couple years back. Didn't impress me much.
+
+### Snowpack
+
+Heard about it a lot lately.
+
+### ESBuild
+
+This is supposed to be frigging fast!
+
 ### Rollup
 
 Decided to exclude Rollup after reading a bit. I've used Rollup in NPM
