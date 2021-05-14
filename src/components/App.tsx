@@ -28,12 +28,12 @@ const App: FC = () => {
       {isLoading && <Spinner />}
 
       <h1>
-        <img alt="Trollo" src={`/out/${url}`} />
+        <img alt="Trollo" src={url} />
         Trollo Giga ERP
       </h1>
 
       <Error>
-        Oh noes! Your duckling can't handle the intensiveeeeeeee suckling!
+        Oh noesss! Your duckling can't handle the intensiveeeeeeee suckling!
       </Error>
 
       <Switch>
