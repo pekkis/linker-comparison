@@ -16,7 +16,7 @@ export interface PersonInterface {
 export const getPersons = async (): Promise<PersonInterface[]> => {
   try {
     const persons = await axios.get<PersonInterface[]>(
-      `${import.meta.env.API}/person`
+      `${import.meta.env.VITE_API}/person`
     );
     return persons.data;
   } catch (e) {
@@ -28,7 +28,7 @@ export const getPersons = async (): Promise<PersonInterface[]> => {
 export const firePerson = async (id: string): Promise<PersonInterface> => {
   try {
     const fired = await axios.delete<PersonInterface>(
-      `${import.meta.env.API}/person/${id}`
+      `${import.meta.env.VITE_API}/person/${id}`
     );
     return fired.data;
   } catch (e) {

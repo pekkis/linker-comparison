@@ -1,21 +1,20 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "jsx": "preserve",
-    "target": "esnext",
-    "module": "commonjs",
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client"],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "noImplicitAny": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": false,
     "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "sourceMap": true,
-    "noEmit": true,
     "isolatedModules": true,
-    "allowJs": true
-  }
-  // "include": ["src/**/*", "/webpack.config.ts"]
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["./src"]
 }
