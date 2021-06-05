@@ -44,7 +44,7 @@ const Person: FC<Props> = ({ person, firePerson }) => {
             firePerson(person.id);
           }}
         >
-          Vapauta
+          Hellurei
         </button>
       </div>
     </div>
