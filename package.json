@@ -7,6 +7,10 @@
   "license": "MIT",
   "private": false,
   "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development REACT_APP_API=http://localhost:8889 node esbuild-dev.js",
+    "build": "NODE_ENV=production REACT_APP_API=http://localhost:8889 node esbuild-build.js"
+  },
   "devDependencies": {
     "@emotion/eslint-plugin": "^11.2.0",
     "@types/ejs": "^3.0.6",
@@ -51,6 +55,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "theme-ui": "^0.8.4",
+    "uuid": "^8.3.2",
     "yup": "^0.32.9",
     "zustand": "^3.5.1"
   }
