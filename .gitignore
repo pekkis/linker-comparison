@@ -1,7 +1,4 @@
 node_modules
-build-esbuild
-build-snowpack
-build-vite
-build-webpack
+build-*
 yarn-error.log
 .vscode
